@@ -29,7 +29,7 @@ public class Start {
 	public static void main(String[] args) {
 		
 		
-		//	每20秒執行一次
+		//	每2秒執行一次
 		int intervalMs = 2000;
 		// thread最大數量
 		int threadMaxCount = 10;
