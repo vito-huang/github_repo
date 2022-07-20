@@ -29,9 +29,9 @@ public class Start {
 		
 		
 		//	每20秒執行一次
-		int intervalMs = 20000;
+		int intervalMs = 2000;
 		// thread最大數量
-		int threadMaxCount = 5;
+		int threadMaxCount = 10;
 		
 		Executor executor = Executors.newFixedThreadPool(threadMaxCount);  
 		executor.execute(new Work(intervalMs));  
