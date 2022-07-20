@@ -29,10 +29,10 @@ public class Start {
 	public static void main(String[] args) {
 		
 		
-		//	每2秒執行一次
-		int intervalMs = 2000;
+		//	每5秒執行一次
+		int intervalMs = 5000;
 		// thread最大數量
-		int threadMaxCount = 10;
+		int threadMaxCount = 5;
 		
 		Executor executor = Executors.newFixedThreadPool(threadMaxCount);  
 		executor.execute(new Work(intervalMs));  
